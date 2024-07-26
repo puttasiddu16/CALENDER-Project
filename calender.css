@@ -1,0 +1,86 @@
+.first-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.second-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.third-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Calender-wrapper{
+    max-width: 280px;
+    font: 100% system-ui;
+    font-family: times New Roaman;
+}
+.calender{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.first-day{
+    grid-column-start: 2;
+    
+}
+.second-day{
+    grid-column-start: 5;
+}
+.third-day{
+    grid-column-start: 6;
+}
+.fourth-day{
+    grid-column-start: 2;
+}
+.fifth-day{
+    grid-column-start: 4;
+}
+.sixth-day{
+    grid-column-start: 7;
+}
+.seven-day{
+    grid-column-start: 2;
+}
+.eight-day{
+    grid-column-start: 5;
+}
+.nine-day{
+    grid-column-start: 1;
+}
+.ten-day{
+    grid-column-start: 3;
+}
+.eleven-day{
+    grid-column-start: 6;
+}
+.twelve-day{
+    grid-column-start: 1;
+}
+.day-name{
+    background: #eee;
+    font-weight: 900;
+    font-family: 'Times New Roman';
+}
+h1{
+    text-align: center;
+}
+h1:hover{
+    background-color: gray;
+    color: aliceblue;
+}
+ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+li{
+    padding: 2px;
+}
+li:hover{
+    cursor: pointer;
+    background-color: grey;
+    color: aliceblue;
+    border: 1px solid darkgray;
+}
